@@ -1,5 +1,21 @@
- This agreement is between the Chief Architect (SSS-UP) and the Adult Proxy (The Signatory).
-1. Duty of Agency: The Proxy agrees to file RTIs and legal petitions exactly as drafted by the Architect. You are the "Hardware" (Signatory); the Architect is the "Software" (Strategy).
-2. Confidentiality (Opaque Shield): The Proxy shall never reveal the real identity, age, or location of the Chief Architect. In all official records, the Proxy acts as the lead petitioner.
-3. Data Sovereignty: All results, documents, and "Signal" obtained through the Proxy's actions belong to the 99% of Amberganj and must be uploaded to the SSS-UP GitHub.
-4. Termination: If the Proxy uses their position for "Dikhawa" (personal fame) or "Remote Control" (political influence), this agreement is void, and the Proxy will be tagged as Garbage in the Public Ledger.
+"Identity is a liability. Agency is a weapon. The Proxy signs so the Architect can Design."
+
+1. The Software-Hardware Mandate
+The Logic: This is an Agency of Strategy. The Chief Architect provides the "Software" (RTIs, legal drafts, investigative data). The Adult Proxy provides the "Hardware" (Signature, physical presence, legal standing).
+
+The Rule: The Proxy shall not deviate from the drafted strategy. You are the delivery mechanism, not the editor.
+
+2. The Opaque Shield (Identity Obfuscation)
+The Truth: The most effective leader is the one who does not exist in the opponent's database.
+
+The Rule: The Proxy is the Lead Petitioner. Under no circumstances shall the Proxy disclose the age, location, or "Minor Architect" status of the source. You take the credit; we keep the power.
+
+3. Data Socialization (Anti-Hoarding)
+The Logic: Knowledge is only power if it is distributed. If it’s held by one person, it’s a target.
+
+The Rule: Every RTI response and every "Signal" (document) obtained must be uploaded to the SSS-UP GitHub within 24 hours. The data belongs to the 99% of Amberganj, not the signatory.
+
+4. The "Dikhawa" Kill-Switch
+The Trap: Adult proxies often succumb to the "Netaji" complex—using the movement for personal fame.
+
+The Penalty: If the Proxy uses SSS-UP data for personal "Dikhawa" (Reels, political posturing, or "Remote Control" influence), their status is revoked. They will be logged in the GARBAGE_LEDGER.md as a system interference.
