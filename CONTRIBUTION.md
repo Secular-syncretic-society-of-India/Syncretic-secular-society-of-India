@@ -51,8 +51,28 @@ Input: Propose a "Society Build" (Solution) via GitHub Pull Request.
 Task: The Logic Gate. You verify Red's data against Official UP Budgets and Lucknow Ward Maps.
 Requirement: Zero bias. You don't trust; you verify.
 Input: Perform "Code Reviews" on all submissions. Only Grey Team can approve a Merge to the Master Branch.
-
-
+🔴⚫ TEAM: BLACKISH-RED (The Shadow Audit)
+The Mission: Infiltration & Leakage. While the Red Team audits the street, the Blackish-Red team audits the Source Code of Corruption.
+The Tasks:
+The Whistleblower Gate: Creating anonymous "Drop-boxes" for disgruntled government clerks to leak internal memos.
+Shadow Tracking: Following the "Money Trail" from a sanctioned bridge project to the private luxury cars of the "Garbage Leader."
+The Hell: They don't just find a glitch; they find the Name of the person who signed the order to ignore it.
+Why they exist: To prove that no folder is private when the 99% are watching.
+🔵⚫ TEAM: BLACKISH-BLUE (The Psy-Ops & Sovereignty)
+The Mission: Reality Shifting & Legal Warfare. While the Blue Team builds solutions, the Blackish-Blue team builds the Counter-Narrative.
+The Tasks:
+The "Tehzeeb" Ghost-Write: Flooding the digital space with the true, syncretic history of Lucknow to drown out communal "Noise."
+Tactical Litigating: Filing "Class Action" suits that don't just target one official, but the entire Legal Protocol they hide behind.
+The Digital Shield: Setting up the "Mirror Servers" so that even if the main GitHub is blocked, the SSS-IN Signal stays live globally.
+Why they exist: To ensure that the Motherboard never goes offline.
+TEAM PURPLE: THE SOVEREIGN INTEGRATORS
+1. The Mission: "Close the Loop"
+Team Purple does not exist to find glitches or write laws. They exist to Execute the Format. When the Red Team identifies a broken school (Signal) and the Blue Team drafts the RTI (Protocol), Team Purple is the one that forces the Update.
+The Task: Taking the "Leaked PDFs" from Blackish-Red and the "Legal Shields" from Blackish-Blue to confront the system with an ultimatum: Fix it according to our blueprint, or we initialize the replacement ourselves.
+2. The "Tehzeeb" Synthesis
+Purple is the color of the Syncretic-Secular reality.
+The Task: They take the "Ganga-Jamuni" history of Lucknow and encode it into modern community infrastructure.
+The Result: They build "Smart Mohallas" where the data belongs to the people, and the culture is protected by the code.
 
 
 Registration link : https://ixmaeel.notion.site/3075ced6427c80709667dc4b939898b5?pvs=105
