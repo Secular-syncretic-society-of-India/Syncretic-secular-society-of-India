@@ -55,5 +55,5 @@ Input: Perform "Code Reviews" on all submissions. Only Grey Team can approve a M
 
 
 
-Reistration
+Registration link : https://ixmaeel.notion.site/3075ced6427c80709667dc4b939898b5?pvs=105
   
