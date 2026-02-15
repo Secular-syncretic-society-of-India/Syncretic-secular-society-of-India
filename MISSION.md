@@ -7,3 +7,6 @@ We will protect the Constitutional Hardware of India from tribalistic "Noise." O
 
 3. Sovereignty of the 99% (The Purple Directive)
 We will move the "Remote Control" of the country from the hands of the "Garbage Leaders" to the hands of the Verified Citizens. Our mission is to replace "Dikhawa" with "Data-Driven Development."
+
+THE "VOLUNTEER OATH" (Embedded in Mission)
+"I am a Node in the Motherboard. I do not seek fame; I seek Signal. I do not serve a Leader; I serve the Logic. I am the Architect of my own Rights."
