@@ -18,3 +18,9 @@ Verify the Data: (Grey Team matches the report with the health budget).
 Deploy the Blueprint: (Blue Team drafts the RTI and the public awareness campaign).
 
 "Identity is a Private Blueprint. Progress is a Public Duty."
+---
+### ⚡ FUEL THE MOTHERBOARD
+SSS-INDIA operates on the **Logic of the 99%**. We accept no government grants and no corporate bribes. Our independence is fueled by decentralized energy.
+**Sovereign Funding Address (BTC):** `bc1qvf0ahg8mu9yf9gcq6wu99dteevvc6p6xehrf4x`
+*Funds are used for: Field audit resources, legal defense protocols, and server maintenance.*
+---
