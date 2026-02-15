@@ -1,68 +1,204 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSS-INDIA | Sovereign Motherboard</title>
-    <style>
-        :root { --red: #ff4b2b; --blue: #00d2ff; --purple: #a4508b; --bg: #0d1117; --text: #c9d1d9; }
-        body { font-family: 'Courier New', monospace; background: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.6; }
-        header { border-bottom: 2px solid var(--purple); padding-bottom: 20px; text-align: center; }
-        .teen-banner { color: var(--blue); font-weight: bold; text-transform: uppercase; letter-spacing: 2px; }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0; }
-        .stat-card { border: 1px solid #30363d; padding: 15px; border-radius: 6px; background: #161b22; text-align: center; }
-        .stat-card h3 { margin: 0; color: var(--purple); }
-        #ledger-output, #mission-output { background: #000; padding: 20px; border-radius: 5px; border-left: 4px solid var(--red); white-space: pre-wrap; margin-top: 20px; }
-        .vector-btn { background: var(--purple); color: white; border: none; padding: 10px 20px; cursor: pointer; text-decoration: none; display: inline-block; margin-top: 10px; border-radius: 4px; }
-    </style>
-</head>
-<body>
+import React, { useState, useEffect } from 'react';
+import { FileText, GitBranch, AlertCircle, Loader2, ExternalLink } from 'lucide-react';
 
-<header>
-    <div class="teen-banner">A TEEN IS WORKING: SSS-INDIA INITIALIZED</div>
-    <h1>SYNERGETIC SECULAR SOCIETY OF INDIA</h1>
-    <p>Status: <span id="system-status">BREACHING THE MATRIX...</span></p>
-</header>
+export default function SSSIndiaDashboard() {
+  const [mission, setMission] = useState('');
+  const [garbageLedger, setGarbageLedger] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [activeTab, setActiveTab] = useState('mission');
+  
+  // Replace with your actual GitHub org and repo name
+  const GITHUB_ORG = 'your-org-name';
+  const GITHUB_REPO = 'your-repo-name';
+  const BRANCH = 'main';
 
-<div class="stats-grid">
-    <div class="stat-card"><h3>RED TEAM</h3><p id="red-count">Loading Signal...</p></div>
-    <div class="stat-card"><h3>BLUE TEAM</h3><p id="blue-count">Loading Protocol...</p></div>
-    <div class="stat-card"><h3>PURPLE TEAM</h3><p>Active</p></div>
-</div>
+  useEffect(() => {
+    fetchMarkdownFiles();
+  }, []);
 
-<h2>[LATEST_MISSION_LOG]</h2>
-<div id="mission-output">Syncing with Mission.md...</div>
+  const fetchMarkdownFiles = async () => {
+    setLoading(true);
+    setError(null);
+    
+    try {
+      const [missionRes, ledgerRes] = await Promise.all([
+        fetch(`https://raw.githubusercontent.com/${GITHUB_ORG}/${GITHUB_REPO}/${BRANCH}/MISSION.md`),
+        fetch(`https://raw.githubusercontent.com/${GITHUB_ORG}/${GITHUB_REPO}/${BRANCH}/GARBAGE_LEDGER.md`)
+      ]);
 
-<h2>[THE_GARBAGE_LEDGER]</h2>
-<div id="ledger-output">Syncing with Ground Reality...</div>
+      if (!missionRes.ok || !ledgerRes.ok) {
+        throw new Error('Failed to fetch files from GitHub');
+      }
 
-<a href="https://github.com/Syedsmaeel/Syncretic-secular-society-of-India" class="vector-btn">FORK THE REVOLUTION</a>
+      const missionText = await missionRes.text();
+      const ledgerText = await ledgerRes.text();
 
-<script>
-    // REPLACE WITH YOUR REPO DETAILS
-    const repo = "Syedsmaeel/Syncretic-secular-society-of-India";
-
-    async function fetchData(file, elementId) {
-        try {
-            const response = await fetch(`https://raw.githubusercontent.com/${repo}/main/${file}`);
-            const data = await response.text();
-            document.getElementById(elementId).innerText = data;
-        } catch (err) {
-            document.getElementById(elementId).innerText = "ERROR: SIGNAL LOST. CHECK REPO VISIBILITY.";
-        }
+      setMission(missionText);
+      setGarbageLedger(ledgerText);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
     }
+  };
 
-    // Fetching the Signal
-    fetchData("MISSION.md", "mission-output");
-    fetchData("GARBAGE_LEDGER.md", "ledger-output");
+  const renderMarkdown = (text) => {
+    return text.split('\n').map((line, idx) => {
+      // Headers
+      if (line.startsWith('# ')) {
+        return <h1 key={idx} className="text-3xl font-bold text-purple-300 mb-4 mt-6 border-b border-red-500/30 pb-2">{line.slice(2)}</h1>;
+      }
+      if (line.startsWith('## ')) {
+        return <h2 key={idx} className="text-2xl font-semibold text-purple-400 mb-3 mt-5">{line.slice(3)}</h2>;
+      }
+      if (line.startsWith('### ')) {
+        return <h3 key={idx} className="text-xl font-semibold text-red-400 mb-2 mt-4">{line.slice(4)}</h3>;
+      }
+      
+      // Lists
+      if (line.startsWith('- ') || line.startsWith('* ')) {
+        return <li key={idx} className="text-gray-300 ml-4 mb-1 list-disc list-inside">{line.slice(2)}</li>;
+      }
+      
+      // Numbered lists
+      if (/^\d+\.\s/.test(line)) {
+        return <li key={idx} className="text-gray-300 ml-4 mb-1 list-decimal list-inside">{line.replace(/^\d+\.\s/, '')}</li>;
+      }
+      
+      // Blockquotes
+      if (line.startsWith('> ')) {
+        return <blockquote key={idx} className="border-l-4 border-purple-500 pl-4 italic text-purple-200 my-2">{line.slice(2)}</blockquote>;
+      }
+      
+      // Code blocks (inline)
+      if (line.includes('`')) {
+        const parts = line.split('`');
+        return (
+          <p key={idx} className="text-gray-300 mb-2">
+            {parts.map((part, i) => 
+              i % 2 === 0 ? part : <code key={i} className="bg-red-900/30 text-red-300 px-1 rounded">{part}</code>
+            )}
+          </p>
+        );
+      }
+      
+      // Empty lines
+      if (line.trim() === '') {
+        return <div key={idx} className="h-2"></div>;
+      }
+      
+      // Regular paragraphs
+      return <p key={idx} className="text-gray-300 mb-2 leading-relaxed">{line}</p>;
+    });
+  };
 
-    // Simulating Real-time status
-    setTimeout(() => {
-        document.getElementById('system-status').innerText = "LIVE AT 6:40 AM LUCKNOW";
-        document.getElementById('red-count').innerText = "Nodes Online: Verified";
-        document.getElementById('blue-count').innerText = "Shields: Active";
-    }, 2000);
-</script>
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-black via-purple-950/20 to-red-950/20">
+      {/* Cyberpunk grid overlay */}
+      <div className="fixed inset-0 bg-[linear-gradient(rgba(138,43,226,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(138,43,226,0.03)_1px,transparent_1px)] bg-[size:50px_50px] pointer-events-none"></div>
+      
+      <div className="relative z-10 container mx-auto px-4 py-8 max-w-6xl">
+        {/* Header */}
+        <header className="mb-8">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-400 via-red-400 to-purple-400 bg-clip-text text-transparent mb-2">
+                SSS-India
+              </h1>
+              <p className="text-purple-300/70 text-sm font-mono flex items-center gap-2">
+                <GitBranch size={16} />
+                Open-Source Governance Motherboard
+              </p>
+            </div>
+            <button
+              onClick={fetchMarkdownFiles}
+              disabled={loading}
+              className="px-4 py-2 bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/50 rounded text-purple-300 transition-all flex items-center gap-2 disabled:opacity-50"
+            >
+              {loading ? <Loader2 size={16} className="animate-spin" /> : <ExternalLink size={16} />}
+              Sync
+            </button>
+          </div>
+          
+          {/* Glitch line */}
+          <div className="h-px bg-gradient-to-r from-transparent via-red-500 to-transparent"></div>
+        </header>
 
-</body>
-</html>
+        {/* Tab Navigation */}
+        <div className="flex gap-2 mb-6">
+          <button
+            onClick={() => setActiveTab('mission')}
+            className={`px-6 py-3 font-mono text-sm transition-all border-b-2 ${
+              activeTab === 'mission'
+                ? 'border-purple-500 text-purple-300 bg-purple-500/10'
+                : 'border-transparent text-gray-500 hover:text-purple-400 hover:border-purple-500/30'
+            }`}
+          >
+            <FileText size={16} className="inline mr-2" />
+            MISSION.md
+          </button>
+          <button
+            onClick={() => setActiveTab('ledger')}
+            className={`px-6 py-3 font-mono text-sm transition-all border-b-2 ${
+              activeTab === 'ledger'
+                ? 'border-red-500 text-red-300 bg-red-500/10'
+                : 'border-transparent text-gray-500 hover:text-red-400 hover:border-red-500/30'
+            }`}
+          >
+            <FileText size={16} className="inline mr-2" />
+            GARBAGE_LEDGER.md
+          </button>
+        </div>
+
+        {/* Content Area */}
+        <div className="bg-black/40 backdrop-blur border border-purple-500/20 rounded-lg p-8 shadow-2xl shadow-purple-500/10">
+          {loading && (
+            <div className="flex items-center justify-center py-20">
+              <Loader2 size={48} className="animate-spin text-purple-400" />
+            </div>
+          )}
+
+          {error && (
+            <div className="bg-red-900/20 border border-red-500/50 rounded p-4 flex items-start gap-3">
+              <AlertCircle size={24} className="text-red-400 flex-shrink-0 mt-1" />
+              <div>
+                <h3 className="text-red-300 font-semibold mb-1">Error Loading Files</h3>
+                <p className="text-red-200/70 text-sm">{error}</p>
+                <p className="text-red-200/50 text-xs mt-2">
+                  Make sure to update GITHUB_ORG and GITHUB_REPO in the code with your actual repository details.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {!loading && !error && (
+            <div className="prose prose-invert max-w-none">
+              {activeTab === 'mission' && (
+                <div className="markdown-content">
+                  {mission ? renderMarkdown(mission) : (
+                    <p className="text-gray-500 italic">No mission statement found.</p>
+                  )}
+                </div>
+              )}
+              
+              {activeTab === 'ledger' && (
+                <div className="markdown-content">
+                  {garbageLedger ? renderMarkdown(garbageLedger) : (
+                    <p className="text-gray-500 italic">No garbage ledger found.</p>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
+        {/* Footer */}
+        <footer className="mt-8 text-center text-purple-300/30 text-xs font-mono">
+          <div className="h-px bg-gradient-to-r from-transparent via-purple-500/30 to-transparent mb-4"></div>
+          Powered by open-source governance • Cyberpunk-Tehzeeb aesthetic
+        </footer>
+      </div>
+    </div>
+  );
+}
