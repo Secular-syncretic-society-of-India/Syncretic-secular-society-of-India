@@ -12,9 +12,42 @@
         @keyframes glitch {
             0% { transform: translate(0); }
             20% { transform: translate(-2px, 2px); }
+            40% { transform: translate(-2px, -2px); }
+            60% { transform: translate(2px, 2px); }
+            80% { transform: translate(2px, -2px); }
             100% { transform: translate(0); }
         }
-        .glitch-text:hover { animation: glitch 0.2s infinite; }
+        @keyframes scan {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+        .glitch-text:hover { animation: glitch 0.3s infinite; }
+        .scanline {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(transparent, rgba(138, 43, 226, 0.3), transparent);
+            animation: scan 8s linear infinite;
+            pointer-events: none;
+        }
+        .grid-bg {
+            background-image: 
+                linear-gradient(rgba(138, 43, 226, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(138, 43, 226, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        .markdown-content h1 { @apply text-2xl font-bold text-purple-300 mb-4 mt-6 border-b border-red-500/30 pb-2; }
+        .markdown-content h2 { @apply text-xl font-semibold text-purple-400 mb-3 mt-5; }
+        .markdown-content h3 { @apply text-lg font-semibold text-red-400 mb-2 mt-4; }
+        .markdown-content ul { @apply list-disc list-inside text-gray-300 mb-2 ml-4; }
+        .markdown-content ol { @apply list-decimal list-inside text-gray-300 mb-2 ml-4; }
+        .markdown-content li { @apply mb-1; }
+        .markdown-content p { @apply text-gray-300 mb-3 leading-relaxed; }
+        .markdown-content blockquote { @apply border-l-4 border-purple-500 pl-4 italic text-purple-200 my-3; }
+        .markdown-content code { @apply bg-red-900/30 text-red-300 px-1 rounded text-sm; }
+        .markdown-content a { @apply text-purple-400 hover:text-purple-300 underline; }
+        .markdown-content strong { @apply text-purple-300 font-bold; }
+        .markdown-content em { @apply text-red-300 italic; }
     </style>
 </head>
 <body class="bg-black text-gray-300 font-mono">
@@ -23,7 +56,6 @@
     <script type="text/babel">
         const { useState, useEffect } = React;
 
-        // --- THE SOVEREIGN IDENTITY GATE ---
         const GITHUB_ORG = 'secular-syncretic-society-of-india'; 
         const GITHUB_REPO = 'Syncretic-secular-society-of-India';
         const BRANCH = 'main';
@@ -33,11 +65,76 @@
             const [ledger, setLedger] = useState('');
             const [loading, setLoading] = useState(true);
             const [activeTab, setActiveTab] = useState('mission');
+            const [lastSync, setLastSync] = useState(null);
+
+            const parseMarkdown = (text) => {
+                const lines = text.split('\n');
+                const elements = [];
+                let inCodeBlock = false;
+                let codeBlock = [];
+
+                lines.forEach((line, idx) => {
+                    // Code blocks
+                    if (line.startsWith('```')) {
+                        if (inCodeBlock) {
+                            elements.push(<pre key={idx} className="bg-black/60 border border-purple-500/20 p-4 rounded my-3 overflow-x-auto"><code className="text-green-400 text-xs">{codeBlock.join('\n')}</code></pre>);
+                            codeBlock = [];
+                        }
+                        inCodeBlock = !inCodeBlock;
+                        return;
+                    }
+                    
+                    if (inCodeBlock) {
+                        codeBlock.push(line);
+                        return;
+                    }
+
+                    // Headers
+                    if (line.startsWith('# ')) {
+                        elements.push(<h1 key={idx}>{line.slice(2)}</h1>);
+                    } else if (line.startsWith('## ')) {
+                        elements.push(<h2 key={idx}>{line.slice(3)}</h2>);
+                    } else if (line.startsWith('### ')) {
+                        elements.push(<h3 key={idx}>{line.slice(4)}</h3>);
+                    }
+                    // Lists
+                    else if (line.match(/^[\-\*] /)) {
+                        elements.push(<li key={idx} className="list-disc list-inside ml-4">{line.slice(2)}</li>);
+                    } else if (line.match(/^\d+\. /)) {
+                        elements.push(<li key={idx} className="list-decimal list-inside ml-4">{line.replace(/^\d+\. /, '')}</li>);
+                    }
+                    // Blockquote
+                    else if (line.startsWith('> ')) {
+                        elements.push(<blockquote key={idx}>{line.slice(2)}</blockquote>);
+                    }
+                    // Horizontal rule
+                    else if (line.match(/^[\-\*_]{3,}$/)) {
+                        elements.push(<hr key={idx} className="border-purple-500/30 my-4" />);
+                    }
+                    // Bold, italic, inline code
+                    else if (line.trim()) {
+                        let processed = line;
+                        // Inline code
+                        processed = processed.replace(/`([^`]+)`/g, '<code>$1</code>');
+                        // Bold
+                        processed = processed.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+                        // Italic
+                        processed = processed.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+                        // Links
+                        processed = processed.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+                        
+                        elements.push(<p key={idx} dangerouslySetInnerHTML={{__html: processed}} />);
+                    } else {
+                        elements.push(<div key={idx} className="h-2"></div>);
+                    }
+                });
+
+                return elements;
+            };
 
             const fetchData = async () => {
                 setLoading(true);
                 try {
-                    // Fetching raw content from the Motherboard
                     const mRes = await fetch(`https://raw.githubusercontent.com/${GITHUB_ORG}/${GITHUB_REPO}/${BRANCH}/MISSION.md`);
                     const lRes = await fetch(`https://raw.githubusercontent.com/${GITHUB_ORG}/${GITHUB_REPO}/${BRANCH}/GARBAGE_LEDGER.md`);
                     
@@ -45,6 +142,7 @@
                     
                     setMission(await mRes.text());
                     setLedger(await lRes.text());
+                    setLastSync(new Date().toLocaleTimeString());
                 } catch (e) {
                     console.error("Signal Lost:", e);
                     setMission("ERROR: MISSION.md NOT FOUND OR REPO IS PRIVATE.");
@@ -56,39 +154,73 @@
             useEffect(() => { fetchData(); }, []);
 
             return (
-                <div className="min-h-screen p-4 md:p-8 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-black to-black">
-                    <div className="max-w-4xl mx-auto border border-purple-500/30 bg-black/60 backdrop-blur-xl rounded-xl shadow-2xl shadow-purple-500/20">
+                <div className="min-h-screen p-4 md:p-8 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-black to-black grid-bg relative overflow-hidden">
+                    <div className="scanline"></div>
+                    
+                    <div className="max-w-5xl mx-auto border border-purple-500/30 bg-black/80 backdrop-blur-xl rounded-xl shadow-2xl shadow-purple-500/20 relative">
                         
-                        <header className="p-6 border-b border-purple-500/30">
-                            <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500 italic glitch-text">
-                                SSS-INDIA
-                            </h1>
-                            <p className="text-[10px] text-purple-400 mt-2 uppercase tracking-widest">
-                                [ SYSTEM_STATUS: ONLINE // ARCHITECT: SYED_ISMAEEL ]
-                            </p>
+                        <header className="p-6 border-b border-purple-500/30 relative">
+                            <div className="flex items-start justify-between">
+                                <div>
+                                    <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-red-500 to-purple-400 italic glitch-text">
+                                        SSS-INDIA
+                                    </h1>
+                                    <p className="text-[10px] text-purple-400 mt-2 uppercase tracking-widest">
+                                        [ SYSTEM_STATUS: <span className="text-green-400">ONLINE</span> // ARCHITECT: SYED_ISMAEEL ]
+                                    </p>
+                                </div>
+                                <button 
+                                    onClick={fetchData}
+                                    className="px-3 py-1 text-[10px] bg-purple-600/20 hover:bg-purple-600/40 border border-purple-500/50 rounded transition-all text-purple-300 uppercase tracking-wider"
+                                    disabled={loading}
+                                >
+                                    {loading ? '◌ SYNCING...' : '⟳ SYNC'}
+                                </button>
+                            </div>
+                            {lastSync && (
+                                <p className="text-[9px] text-gray-600 mt-2">LAST_SYNC: {lastSync}</p>
+                            )}
                         </header>
 
                         <nav className="flex border-b border-white/5">
-                            <button onClick={() => setActiveTab('mission')} className={`flex-1 p-4 text-xs transition-all ${activeTab === 'mission' ? 'bg-purple-600/20 text-purple-300 border-b-2 border-purple-500' : 'text-gray-600'}`}>MISSION.md</button>
-                            <button onClick={() => setActiveTab('ledger')} className={`flex-1 p-4 text-xs transition-all ${activeTab === 'ledger' ? 'bg-red-600/20 text-red-300 border-b-2 border-red-500' : 'text-gray-600'}`}>GARBAGE_LEDGER.md</button>
+                            <button 
+                                onClick={() => setActiveTab('mission')} 
+                                className={`flex-1 p-4 text-xs transition-all uppercase tracking-wider ${activeTab === 'mission' ? 'bg-purple-600/20 text-purple-300 border-b-2 border-purple-500' : 'text-gray-600 hover:text-gray-400'}`}
+                            >
+                                ▸ MISSION.md
+                            </button>
+                            <button 
+                                onClick={() => setActiveTab('ledger')} 
+                                className={`flex-1 p-4 text-xs transition-all uppercase tracking-wider ${activeTab === 'ledger' ? 'bg-red-600/20 text-red-300 border-b-2 border-red-500' : 'text-gray-600 hover:text-gray-400'}`}
+                            >
+                                ▸ GARBAGE_LEDGER.md
+                            </button>
                         </nav>
 
-                        <main className="p-6 min-h-[400px]">
+                        <main className="p-6 md:p-8 min-h-[500px]">
                             {loading ? (
-                                <div className="flex items-center justify-center h-64 text-purple-500 animate-pulse text-xs">
-                                    > DECRYPTING_SIGNAL...
+                                <div className="flex flex-col items-center justify-center h-64 text-purple-500">
+                                    <div className="text-4xl mb-4 animate-pulse">◌</div>
+                                    <div className="text-xs animate-pulse">&gt; DECRYPTING_SIGNAL...</div>
                                 </div>
                             ) : (
-                                <pre className="whitespace-pre-wrap text-sm leading-relaxed text-gray-400 bg-black/40 p-4 rounded border border-white/5 overflow-x-auto">
-                                    {activeTab === 'mission' ? mission : ledger}
-                                </pre>
+                                <div className="markdown-content">
+                                    {activeTab === 'mission' ? parseMarkdown(mission) : parseMarkdown(ledger)}
+                                </div>
                             )}
                         </main>
 
-                        <footer className="p-4 text-[10px] text-center text-gray-700 border-t border-white/5">
-                            SOURCE: {GITHUB_ORG}/{GITHUB_REPO} // SECURE_CONNECTION: ESTABLISHED
+                        <footer className="p-4 text-[10px] text-center text-gray-700 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-2">
+                            <span>SOURCE: <span className="text-purple-500">{GITHUB_ORG}/{GITHUB_REPO}</span></span>
+                            <span>SECURE_CONNECTION: <span className="text-green-500">ESTABLISHED</span></span>
                         </footer>
                     </div>
+
+                    {/* Corner accents */}
+                    <div className="fixed top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-purple-500/30 pointer-events-none"></div>
+                    <div className="fixed top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-red-500/30 pointer-events-none"></div>
+                    <div className="fixed bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-red-500/30 pointer-events-none"></div>
+                    <div className="fixed bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-purple-500/30 pointer-events-none"></div>
                 </div>
             );
         }
