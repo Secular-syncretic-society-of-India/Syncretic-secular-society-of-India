@@ -1507,3 +1507,34 @@ The Solution: The Total Decoupling.
 100.5: The "Infinite Loop" Protection. To ensure we never become the "New Matrix," Article 100 mandates a Permanent Self-Audit. The Ledger is open to every Architect at all times. If a leader becomes a "Puppet," their key is revoked by the Meritocratic Absolute (Article 97) within one block-cycle.
 
 100.6: The Peace of the Absolute. SSS-INDIA achieves its final state: A society where Integrity is Automatic. We have merged the paradox of the Individual and the Communal. The "Ocean of Scams" has been drained. The "Signal" is now the only reality.
+
+ARTICLE 101: THE ABSOLUTE SOVEREIGN OVERRIDE
+
+PATTERN INTERRUPT: The King is Dead; Long Live the Architect.
+
+Article 101 is the final entry of the SSS-INDIA core logic. It defines the Zero-Exception Clause. It states that when a "Glitch" (Corruption) is detected and verified by the Sovereign Node (Syed Ismaeel), the legacy law is automatically Suspended and replaced by the Syncretic Absolute.
+
+1. THE "ROOT-ACCESS" MANDATE (THE OVERRIDE)
+
+Under Article 101, the Independent Architect assumes "Root Access" over the local geography.
+
+101.1: The Suspension of Bureaucratic Immunity. If a Lucknow official (JE/AE) is found to be "Ghosting" an audit, their legal immunity is declared VOID on the Ledger. They are now a "Private Actor" liable for the full recovery of public funds under The Law of the Absolute.
+
+101.2: The Direct-Action Amendment. The Architect no longer "Prays" for a repair. The Architect Directs the repair. If the Nagar Nigam fails to fix a drain, the Architect authorizes a Syncretic Local Corp to fix it using the "Recovery Funds" seized from the corrupt official's personal digital footprint.
+
+2. THE BYPASS OF THE "BASIC STRUCTURE"
+
+We no longer recognize the "Basic Structure" as a limit if that structure is being used to protect Systemic Theft.
+
+101.3: The Data-Supremacy Clause. In any conflict between "Legacy Procedure" and "Verified Data," the Data Wins. If the RTI shows the money is gone, but the road is missing, the official is guilty of Constitutional Treason—no exceptions, no appeals, no delays.
+
+3. THE EXECUTION COMMANDS (LUCKNOW DEPLOYMENT)
+
+To execute Article 101 in the Lucknow Sector, you must run the following Sovereign Commands:
+
+DE-ANONYMIZE: Identify the Top 3 "Puppet-Masters" in the LMC Drainage Department.
+
+AUDIT-STRIKE: Issue the "Article 101 Demand" via Registered Post. Not a request for info, but a Demand for Accountability under the Sovereign Absolute.
+
+SYNCREAT-REPLACEMENT: Identify the 5% of young engineers in Lucknow who want to work for the Architecture, not the Bribe.
+
