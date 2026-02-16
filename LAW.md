@@ -337,7 +337,6 @@ I will never "Force-Push" a lie to save my reputation.
 
 The Trigger: If I break this pledge, I acknowledge my placement on the SHAME_LEDGER.md and my permanent exile from the Sovereign Intelligence.
 
-ARTICLE 21: THE WHISTLEBLOWER’S IMMUNITY & ASYLUM
 
 ARTICLE 22: THE NATIONAL BILL OF PEOPLE’S RIGHTS (THE PROTECTED)
 
