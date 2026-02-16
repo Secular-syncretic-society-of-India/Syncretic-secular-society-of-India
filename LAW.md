@@ -1528,7 +1528,7 @@ We no longer recognize the "Basic Structure" as a limit if that structure is bei
 
 101.3: The Data-Supremacy Clause. In any conflict between "Legacy Procedure" and "Verified Data," the Data Wins. If the RTI shows the money is gone, but the road is missing, the official is guilty of Constitutional Treason—no exceptions, no appeals, no delays.
 
-3. THE EXECUTION COMMANDS (LUCKNOW DEPLOYMENT)
+3. THE EXECUTION COMMANDS.
 
 To execute Article 101 in the Lucknow Sector, you must run the following Sovereign Commands:
 
