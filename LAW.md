@@ -1726,53 +1726,22 @@ Every policy decision is tagged to the official's identity for life. 20 years af
 
 "True Law is not a net that catches the small fish and lets the sharks break through. It is a gravity well that pulls everyone down to the level of the Soil. If a King cannot survive an audit, he was never a Leader—he was a Parasite. The Ledger is the only throne that cannot be bought, and it is the only one that does not forgive."
 
-ARTICLE 108: THE ZERO-PARTY SYSTEM
-
-PATTERN INTERRUPT: "Choice" is the drug they give you so you don't notice the cage.
-
-THE HOOK: Democracy is a Sports Match; Governance is an Engineering Problem.
-
-The Relatable Pain: You are forced to choose between "Red" and "Blue," "Left" and "Right," or "Caste A" and "Religion B." Once the vote is cast, the "Party High Command" takes over. The person you voted for doesn't represent you; they represent the party whip. They vote for bills they haven't read to satisfy donors you'll never meet. You are trapped in a cycle of "Lesser Evil" politics where the faces change but the policy of extraction remains identical. You aren't a citizen; you are a spectator in a fixed match.
-
-The Sovereign Solution: Article 108—The Total Deletion of Political Parties. We replace the "Party System" with the Zero-Party Protocol. In the SSS-INDIA architecture, there are no candidates, only Project Managers. There are no manifestos, only Service Level Agreements (SLAs). Governance is stripped of its "Identity Politics" and returned to its core function: The efficient management of the Signal.
-
-108.1: THE DISSOLUTION OF THE "WHIP" & COLLECTIVE GUILT.
-
-The Individual Node: Every representative is an independent node. There is no "Party Leader" to hide behind. If a representative votes for a destructive policy, they cannot claim they were "following the party line."
-
-Direct Liability: Under the Ledger, the "Party" does not exist as a legal entity. Only the Individual Signatory exists. If 500 people vote for a scam, 500 people are individually liable for the recovery of those funds. We don't audit "The Party"; we audit the person.
-
-108.2: THE ELIMINATION OF THE "ELECTION CIRCUS."
-
-From Popularity to Proficiency: Campaigns are banned. You cannot "Buy" your way into the Ledger with rallies, posters, or biryani.
-
-The Meritocratic Filter: To qualify for a "Governance Slot," a candidate must pass the Competence Audit. This includes a verified history of resource management, a clean forensic audit of their personal Ledger, and a psychological profile that detects "Power-Hungry" pathologies.
-
-The Digital Ballot: Voting is not a popularity contest. You don't vote for a "Man"; you vote for a Priority Stack. If the community votes for "Drainage" over "Statues," the Ledger automatically allocates funds to the most qualified engineer/manager in that sector.
-
-108.3: THE TASK-BASED TENURE (THE TBT PROTOCOL).
-
-No Fixed Terms: The concept of a "5-Year Term" is deleted. A representative remains in their "Slot" only as long as their Performance Metrics stay within the green zone.
-
-The Instant Recall: If the Ledger detects a "Policy Glitch" or a drop in local infrastructure quality, the representative's authority is Terminated in Real-Time. We don't wait for the next election to fire a failure. The Signal removes them the moment the data turns red.
-
-108.4: THE DE-LINKING OF IDENTITY & GOVERNANCE.
-
-Neutral Administration: The Zero-Party system forbids the use of religious symbols, caste-based mobilization, or "Identity Hooks" in governance.
-
-The Math of Governance: If a bridge needs building, it doesn't matter if the engineer is Hindu, Muslim, or Atheist. The only thing the Ledger tracks is the Tensile Strength of the Steel and the Integrity of the Budget. The "Who" is irrelevant; the "What" is Absolute.
-
-108.5: THE END OF THE "DONOR" CLASS.
-
-Zero External Funding: Since there are no campaigns, there is no need for "Donors." The Ledger provides a standardized, modest stipend for administrators.
-
-The Corruption Vacuum: By removing the "Cost of Entry" into politics, we remove the "Need for Kickbacks." If you didn't spend 100 Crores to get the seat, you don't need to steal 200 Crores to pay back your backers.
-
-108.6: THE LIQUID DEMOCRACY OVERRIDE.
-
-The Citizen-Auditor: Every citizen has "Voting Power" that can be delegated or retracted instantly. If you realize your representative is a fraud, you click a button on your Sovereign App and move your "Support Signal" to a different manager. When a manager’s "Support Signal" falls below 51%, their access to the Treasury is automatically locked.
-
-"A Political Party is a parasite that lives in the gap between the People and the Truth. It feeds on your anger to keep you from seeing the Ledger. In a Zero-Party system, there is no 'Them' to blame—there is only the Data, and the Data never lies. We are replacing the 'Orator' with the 'Operator'."
+REVISED LAW 108: The Doctrine of the Glass Throne & Rational Sovereignty
+I. The Abolition of the Political Avatar
+No leader, representative, or administrator within the Syncretic Republic shall be titled, marketed, or perceived as a "Divine," "Avatar," or "Infallible" entity. All public servants are legally classified as Contracted Technicians of the State. To claim "divine guidance" as a justification for policy is a violation of Law 108 and results in immediate disqualification and a lifetime ban from public service.
+II. The "Home" vs. The "Office" (Anti-Dynasty Clause)
+Political power is a lease, not an inheritance. No representative may establish a permanent "home" or "bastion" of power.
+The Mobility Mandate: To prevent the "Bhakti" of local strongmen, leadership roles are subject to Sortition-Rotation.
+Asset Transparency: Every brick, asset, and rupee held by a politician must be publicly tracked on the SSS-INDIA ledger. If the "Political Home" grows faster than the "Citizen’s Home," the leader is automatically audited for Rational Parasitism.
+III. The Technocratic Filter (The End of the Speechmaker)
+Charisma is not a qualification. Before any politician can stand for a Gram Swaraj Council or National Expert Board, they must pass the SSS-Merit Certification:
+Logical Literacy Exam: Proving they can distinguish between correlation and causation.
+Syncretic Neutrality Test: Ensuring they cannot prioritize one religious group over the rational good of the Republic.
+The "Bhakti" Shield: Candidates who use religious symbols, slogans, or "God-claims" in their campaign are immediately deleted from the ballot.
+IV. The Epistocratic Citizen-Check
+The power of the politician is capped by the Knowledge of the People. Under Law 108, a "blind vote" is an invalid vote. The Republic shall facilitate Citizen Assemblies where the "Expert Board" (Technocracy) must explain the mathematical logic of their laws to the local people. If the logic fails, the law is voided—no matter how popular the leader is.
+V. Penalties for Deification
+Any politician caught encouraging "Hero Worship" or building a "Personal Cult" shall be charged under the Act of Democratic Degradation. Their "Home" of power will be dismantled, and their duties redistributed to a Randomized Citizen Jury (Sortition) to prove that the Republic survives on Systems, not Stars.
 
 ARTICLE 109: THE DEATH OF THE DEMAGOGUE
 
