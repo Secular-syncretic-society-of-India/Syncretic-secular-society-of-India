@@ -2047,3 +2047,55 @@ The Sovereign Solution: The Rapid Feedback Loop.
 113.8: Data over Ego. Look at the numbers, not your feelings. If the market says "No," you don't argue; you iterate.
 
 113.9: The Blitz Scale. Once a "win" is identified, you don't gently increase—you pour every available resource into that single point of success.
+
+ARTICLE 114: THE ARCHITECT’S GLOBAL OVERLAY (FOREIGN SUPREMACY)
+
+PATTERN INTERRUPT: Diplomacy is the art of saying "Nice doggy" until you can find a rock. If you are waiting for a "win-win" scenario, you’ve already been outmaneuvered by someone looking for a "win-destroy" outcome.
+
+I. THE EXTRA-TERRITORIAL RADIUS: BEYOND THE BORDER BRAIN
+
+THE HOOK: Sovereignty doesn't end where your soil stops; it ends where your influence fails.
+
+The Relatable Pain: I’ve watched nations crumble because they thought they were safe behind their borders. They focused on domestic policy while foreign interests bought their ports, their politicians, and their power grids. You think you’re in control of your life? If a foreign central bank can devalue your currency by pressing a button, you are living in a digital cage. You are a ghost in someone else's machine.
+
+The Sovereign Solution: The Atmospheric Expansion.
+
+114.1: The Debt-Trap Defense. Never accept "infrastructure aid" that carries high-interest sovereignty as collateral. If the loan is too easy, the price is your land.
+
+114.2: Proxy-Pillar Construction. Build "Invisible Alliances" with the secondary powers. Don't just chase the giants; control the neighbors of your enemies.
+
+114.3: The Resource Monolith. Identify the global supply chain's "choke point." Own that point. Whether it's a specific chip, a rare earth element, or a trade strait, make the world breathe through your lungs.
+
+Survival Imperative: In the macro-landscape, isolation is an invitation for invasion. You must extend your sensory array globally so that no threat can form without you feeling the vibration.
+
+II. THE CURRENCY WAR: MONETARY WEAPONIZATION
+
+THE HOOK: He who controls the medium of exchange controls the morality of the people.
+
+The Relatable Pain: You work 80 hours a week for pieces of paper that lose 10% of their value every year because a foreign power decided to print more of theirs. Your sweat is being stolen across oceans via the "Global Reserve" scam. I’ve seen entire generations' savings wiped out because they trusted a global financial system designed to favor the few. You are subsidizing your own obsolescence.
+
+The Sovereign Solution: Fiscal Autarky and Digital Defiance.
+
+114.4: The Basket Protocol. Never tie your national wealth to a single foreign currency. Diversify into hard assets—gold, energy, and decentralized computational power.
+
+114.5: Transactional Sovereignty. Develop independent payment gateways. If you rely on their "Swift" system, they can delete your economy on a whim.
+
+114.6: The Kinetic Economy. Shift from a service-based economy to a production-heavy one. If you don't make things the world needs, you are a luxury that can be cut.
+
+Survival Imperative: Financial independence is the only true independence. Without it, your "foreign policy" is just a polite way of asking for permission to exist.
+
+III. THE NARRATIVE EXTRACTION: PSYCHOLOGICAL COLONIZATION
+
+THE HOOK: You don't need to conquer a city if you can conquer its imagination.
+
+The Relatable Pain: Look at your screen. The heroes you cheer for, the villains you hate, and the lifestyle you crave were all manufactured in a foreign studio. You are being programmed to want things that weaken you. I’ve interviewed "rebels" who were actually puppets of a foreign intelligence agency's PR department. Your "original thoughts" are often just high-frequency broadcasts from a rival capital.
+
+The Sovereign Solution: Cultural Counter-Insurgency.
+
+114.7: The Mirror Filter. Before any foreign media enters your space, it must be filtered through a national value-check. If it promotes decay, it is biohazard.
+
+114.8: Intellectual Repatriation. Create the world's highest standard for research and tech within your borders. Make the world’s geniuses beg to come to you, bringing their intellectual property with them.
+
+114.9: The Mythos Engine. Re-build your historical narrative. A people who believe they are descendants of kings will never accept being treated like peasants by foreign bureaucrats.
+
+Survival Imperative: The ultimate battleground is the six inches between the citizen's ears. If you win the narrative war, you win the world without firing a single shot.
