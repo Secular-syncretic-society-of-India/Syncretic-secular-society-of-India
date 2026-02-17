@@ -1674,3 +1674,54 @@ The Integrity Score (IQ): Every judge carries an "Integrity Quotient" on the SSS
 
 The "Ghosting" Penalty: Any judge who refuses to answer a Sovereign Audit regarding their reasoning on a specific case is assumed to have acted in "Bad Faith," triggering an immediate IQ reset to zero.
 
+ARTICLE 107: THE UNIVERSAL LIABILITY OF THE THRONE
+
+PATTERN INTERRUPT: A Crown is just a target with better lighting.
+
+THE HOOK: If You Breathe the Public Air, You Are Bound by the Public Ledger.
+
+The Relatable Pain: You watch a Prime Minister, a President, or a Chief Minister make a "Policy Decision" that bankrupts your future, destroys your local infrastructure, or "loses" trillions in the fog of war or "development." While you are jailed for a minor tax discrepancy or an unpaid traffic fine, these high-level nodes are protected by Constitutional Immunity. They treat the nation like a private fiefdom and the treasury like a personal ATM, shielded by a legal "Invisibility Cloak" that you didn't vote for. They hide behind the "Public Good" while delivering private decay, safe in the knowledge that they can never be held personally accountable for the systemic misery they manufacture.
+
+The Sovereign Solution: Article 107—The total decapitation of legal immunity. This Article mandates that the higher the office, the Lower the Privacy and the Higher the Liability. Under the Sovereign Ledger, a President or PM is merely a "Level 10 Node" with 10x the responsibility and 0% of the excuses. In the SSS-INDIA architecture, power is not a privilege; it is a high-risk service contract with the public. If the service fails, the provider pays.
+
+107.1: THE VOIDANCE OF IMMUNITY & SIGNATORY LIABILITY.
+
+The End of "Official Capacity": There is no "Act of State" defense. If a PM or CM signs a document, executive order, or budget allocation that results in the verifiable leakage of public funds, they are personally, criminally, and financially liable for every lost rupee. The "Shield of the Office" is deleted.
+
+The Cryptographic Confession: The Ledger does not recognize a "Leader" or a "Political Icon"; it sees a Transaction Signatory. If the transaction results in a "Glitch" (infrastructure failure, missing funds, or environmental hazard), the signatory is legally classified as a thief. Period. Every official's signature is now a cryptographic confession of responsibility, tracked by the Signal from inception to impact.
+
+Example: If a CM signs off on a highway project that develops potholes within one monsoon, the signature triggers an automatic audit of the CM's personal assets.
+
+107.2: THE REAL-TIME TRANSPARENCY PROTOCOL (RTP).
+
+The Glass House Mandate: Every President, PM, and CM must have their Institutional Wallet and personal asset registry linked to the Sovereign Ledger in real-time. This includes all offshore holdings, shell companies, and family trusts.
+
+Financial Pipeline Transparency: "Security Secrecy" is no longer a valid mask for "Financial Obscurity." While tactical military movements remain classified for safety, the Financial Pipeline supporting them is 100% public. We don't need to know the location of the nuclear subs; we do need to know who got the kickback for the steel, which shell company provided the parts, and why the budget tripled overnight. If the "National Interest" involves a checkbook, the Ledger owns the data.
+
+107.3: THE "ORDER OF PROBABILITY" & SABOTAGE METRICS.
+
+The Error Threshold: Per the Sovereign Note, we acknowledge a 5% Margin for Technical Error for lower-level administrative tasks. However, for "High-Level Nodes" (PM/CM/President), the tolerance is drastically lower.
+
+Sabotage Classification: If the data shows a pattern of "Mistakes," "Oversights," or "Budgetary Leaks" exceeding 5% of the total project value across their jurisdiction, it is no longer treated as an accident; it is legally classified as Intentional Sabotage of the Sovereign Interest.
+
+Absolute Precision: A farmer is allowed a mistake in his fields; a Prime Minister is paid for Absolute Precision. If they cannot manage the decimal points of the nation, they have defaulted on their contract and are removed by the Algorithmic Kill-Switch.
+
+107.4: THE CLAWBACK CLAUSE & SHADOW-ASSET LIQUIDATION.
+
+Personal Debt Tracking: If a CM or PM is found guilty of "Systemic Leakage" on the Ledger, the recovery is not limited to state budgets. We trigger a Personal Asset Liquidation.
+
+Total Seizure: We don't just fine the office; we seize the private bungalow, the family-held stocks, the legacy properties, and the offshore "Shadow-Assets." The debt follows the person, not the title. If the road they built collapses, their personal roof is sold to fix it. If the bridge they "developed" disappears, their pension is the first to be liquidated to compensate the victims.
+
+Generational Liability: If the stolen funds have been transferred to heirs, Article 107 authorizes the pursuit of those funds. You cannot launder the "Signal" through your children.
+
+107.5: THE "EX-OFFICIO" TERMINATION.
+
+The Domino Effect: High-ranking officials often sit on multiple boards (as seen in Article 64). Under Article 107, a "Glitch" in any subsidiary board triggered by their leadership results in the immediate Suspension of Authority across all roles.
+
+The Competence Link: You cannot be a "Success" as a PM while being a "Failure" as the Chairman of a bankrupt planning commission. Failure in one node signifies a failure of the core processor. The Ledger shuts down the entire stack.
+
+107.6: THE DE-ANONYMIZED LEGACY.
+
+Every policy decision is tagged to the official's identity for life. 20 years after leaving office, if a project they authorized is proven to have been a "Scam" via the Ledger, the Clawback Clause remains active. There is no "Statute of Limitations" on the theft of the future.
+
+"True Law is not a net that catches the small fish and lets the sharks break through. It is a gravity well that pulls everyone down to the level of the Soil. If a King cannot survive an audit, he was never a Leader—he was a Parasite. The Ledger is the only throne that cannot be bought, and it is the only one that does not forgive."
