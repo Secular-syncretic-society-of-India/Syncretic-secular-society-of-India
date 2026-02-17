@@ -1726,23 +1726,77 @@ Every policy decision is tagged to the official's identity for life. 20 years af
 
 "True Law is not a net that catches the small fish and lets the sharks break through. It is a gravity well that pulls everyone down to the level of the Soil. If a King cannot survive an audit, he was never a Leader—he was a Parasite. The Ledger is the only throne that cannot be bought, and it is the only one that does not forgive."
 
-REVISED LAW 108: The Doctrine of the Glass Throne & Rational Sovereignty
-I. The Abolition of the Political Avatar
-No leader, representative, or administrator within the Syncretic Republic shall be titled, marketed, or perceived as a "Divine," "Avatar," or "Infallible" entity. All public servants are legally classified as Contracted Technicians of the State. To claim "divine guidance" as a justification for policy is a violation of Law 108 and results in immediate disqualification and a lifetime ban from public service.
-II. The "Home" vs. The "Office" (Anti-Dynasty Clause)
-Political power is a lease, not an inheritance. No representative may establish a permanent "home" or "bastion" of power.
-The Mobility Mandate: To prevent the "Bhakti" of local strongmen, leadership roles are subject to Sortition-Rotation.
-Asset Transparency: Every brick, asset, and rupee held by a politician must be publicly tracked on the SSS-INDIA ledger. If the "Political Home" grows faster than the "Citizen’s Home," the leader is automatically audited for Rational Parasitism.
-III. The Technocratic Filter (The End of the Speechmaker)
-Charisma is not a qualification. Before any politician can stand for a Gram Swaraj Council or National Expert Board, they must pass the SSS-Merit Certification:
-Logical Literacy Exam: Proving they can distinguish between correlation and causation.
-Syncretic Neutrality Test: Ensuring they cannot prioritize one religious group over the rational good of the Republic.
-The "Bhakti" Shield: Candidates who use religious symbols, slogans, or "God-claims" in their campaign are immediately deleted from the ballot.
-IV. The Epistocratic Citizen-Check
-The power of the politician is capped by the Knowledge of the People. Under Law 108, a "blind vote" is an invalid vote. The Republic shall facilitate Citizen Assemblies where the "Expert Board" (Technocracy) must explain the mathematical logic of their laws to the local people. If the logic fails, the law is voided—no matter how popular the leader is.
-V. Penalties for Deification
-Any politician caught encouraging "Hero Worship" or building a "Personal Cult" shall be charged under the Act of Democratic Degradation. Their "Home" of power will be dismantled, and their duties redistributed to a Randomized Citizen Jury (Sortition) to prove that the Republic survives on Systems, not Stars.
+LAW 108: THE DOCTRINE OF THE GLASS THRONE (RATIONAL SOVEREIGNTY)
 
+PATTERN INTERRUPT: Stop looking for a savior. In SSS-INDIA, a "Leader" is not a hero to be worshipped, but a Contracted Technician to be monitored. If they claim to be an Avatar of God, we treat it as a clinical psychiatric break and remove them from the system immediately.
+
+I. THE ABOLITION OF THE POLITICAL AVATAR (NO MORE GODS)
+
+THE RELATABLE PAIN: You’ve spent decades being manipulated by "Divine" leaders who use religious masks to hide their incompetence. They claim "Infallibility" while you pay for their mistakes with your taxes and your blood.
+
+Under Law 108, the "Political Avatar" is dead. Every public servant is legally classified as a Contracted Technician of the State. There are no titles of divinity. To claim "divine guidance" for a policy isn't a sign of faith—it’s a violation of Law 108, resulting in an immediate Lifetime Ban from public service.
+
+The Reality of the Glass Throne:
+
+Zero Marketing: Leaders cannot be marketed as "Saviors." They are administrators of the Signal.
+
+The Secular Filter: The moment a politician invokes the supernatural to justify a budget or a war, their contract is terminated.
+
+Rational Accountability: We don't pray for better results; we check the code and fire the technician.
+
+TRUTH BOMB: A politician claiming "God is on my side" is simply a technician admitting they don’t have the data to prove their point.
+
+Why this matters for your survival: This law prevents the rise of theocratic tyrants. It ensures that every decision affecting your life is based on evidence you can see, not "visions" you have to take on faith.
+
+II. THE MOBILITY MANDATE & THE ANTI-DYNASTY SHIELD
+
+THE RELATABLE PAIN: Watching "Political Families" treat your district like a private inheritance while their personal mansions grow larger as the surrounding infrastructure crumbles.
+
+Political power is a lease, not a birthright. We have instituted Sortition-Rotation. No representative can establish a permanent "bastion" of power. If a leader’s personal wealth grows faster than the average citizen’s income in their sector, they are automatically flagged for Rational Parasitism.
+
+The Anti-Bhakti Protocols:
+
+Asset Transparency: Every brick, rupee, and asset is tracked on the SSS-INDIA Ledger in real-time.
+
+Forced Mobility: Leaders are rotated to prevent the formation of local "Strongman" cults.
+
+The Wealth Cap: If the "Political Home" outshines the "Citizen’s Home," the assets are seized and redistributed.
+
+Why this matters for your success: It breaks the cycle of generational corruption. It ensures that the person in power is focused on the system’s performance, because they won't be in that chair long enough to build a dynasty.
+
+III. THE TECHNOCRATIC FILTER (THE END OF THE SPEECHMAKER)
+
+THE RELATABLE PAIN: Voting for someone because they are a "Good Speaker," only to realize they can’t read a spreadsheet, understand a climate report, or manage a complex logistics chain.
+
+Charisma is a biological glitch, not a qualification. Before any candidate stands for a Gram Swaraj Council, they must pass the SSS-Merit Certification. If you cannot distinguish between correlation and causation, you are legally unfit to lead.
+
+The Filter Requirements:
+
+Logical Literacy Exam: A brutal test of data interpretation and syllogistic reasoning.
+
+Syncretic Neutrality Test: Proof that the candidate cannot prioritize a religious group over the rational good.
+
+The "Bhakti" Shield: Any use of religious symbols or "God-claims" during a campaign results in an Immediate Deletion from the ballot.
+
+TRUTH BOMB: We don't need leaders who can move crowds; we need technicians who can move resources.
+
+Why this matters for your survival: It ensures that the people managing your water, your energy, and your security are actually qualified to do so. We are replacing the "Hype-Man" with the "Expert."
+
+IV. PENALTIES FOR DEIFICATION (DISMANTLING THE STARS)
+
+THE RELATABLE PAIN: The "Hero Worship" culture that turns public servants into celebrities, making them untouchable and above the very laws they write for you.
+
+Any politician caught encouraging a "Personal Cult" or "Hero Worship" is charged under the Act of Democratic Degradation. We don't just fire them; we dismantle their "Home of Power" and hand their duties to a Randomized Citizen Jury (Sortition).
+
+The Systemic Cleanup:
+
+Public Erasure: Cult-of-personality imagery is scrubbed from the public record.
+
+Sortition Takeover: Proving that the Republic survives on Systems, not Stars.
+
+The Epistocratic Check: If a leader cannot explain the mathematical logic of a law to a Citizen Assembly, the law is voided—no matter how "popular" the leader is.
+
+Why this matters for your success: It guarantees that the power remains in the Logic of the People, not the Will of the Idol. You are no longer a spectator in a cult; you are a participant in a high-functioning state.
 ARTICLE 109: THE DEATH OF THE DEMAGOGUE
 
 PATTERN INTERRUPT: Stop looking for a Hero. Heroes are just Dictators in waiting.
